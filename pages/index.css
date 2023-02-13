@@ -85,3 +85,5 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 /* а теперь подключила модификаторы */
 
+@import url(../blocks/dotted/dotted.css)
+

@@ -1,0 +1,74 @@
+.dotted {
+  /* background-color: #EB483F; */
+  color: white;
+  position: absolute;
+  right: -9px;
+  top: 240px;
+}
+
+.dotted__wrapper {
+  width: 490px;
+  margin: auto;
+  padding: 50px 0;
+  min-height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.animated {
+  width: 490px;
+  height: 350px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, 50%);
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.star_size_s {
+  width: 310px;
+  height: 310px;
+  margin-left: -155px;
+  margin-top: -155px;
+}
+
+.star_size_l {
+  width: 420px;
+  height: 420px;
+  margin-left: -210px;
+  margin-top: -210px;
+}
+
+.star_size_m {
+  width: 420px;
+  height: 420px;
+  margin-left: -210px;
+  margin-top: -210px;
+}
+
+.dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 490px;
+  height: 460px;
+  margin-top: -245px;
+  margin-left: -230px;
+}
+
+.dots_size_s {
+  animation: rotation  40s ease-in-out infinite;
+}
+
+.dots_size_m {
+  animation: rotation  30s ease-in-out infinite;
+}
+
+.dots_size_l {
+  animation: rotation  20s ease-in-out infinite;
+}
