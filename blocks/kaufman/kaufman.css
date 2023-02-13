@@ -1,6 +1,8 @@
 .kaufman {
   background-color: #1f1f1f;
-  background-color: #121C50;
+  /* background-color: #121C50; */
+  /* background-color: #f2f2f2; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
