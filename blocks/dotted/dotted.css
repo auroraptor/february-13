@@ -1,9 +1,120 @@
+@keyframes move_bg {
+  from {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100px 0;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: auto;
+}
+
+.menu__item {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}
+
+.keyframes {
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.keyframes__wrapper {
+  width: 490px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 56px;
+  font-size: 54px;
+}
+
+.subtitle {
+  line-height: 19px;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+  max-width: 350px;
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.demo__item {
+  box-sizing: border-box;
+  /* border: 2px solid white; */
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  margin-right: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.demo__item:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.demo__item:first-of-type, .demo__item:nth-of-type(2) {
+  margin-top: 0;
+}
+
+.demo__row {
+  height: 64px;
+}
+
+.demo__row_size_xs {
+  background-image: url(https://pictures.s3.yandex.net/animation_topic/line_xs.svg);
+  animation: move_bg 5s linear infinite alternate;
+}
+
+.demo__row_size_s {
+  background-image: url(https://pictures.s3.yandex.net/animation_topic/line_s.svg);
+  animation: move_bg 3s linear infinite alternate;
+}
+.demo__row_size_m {
+  background-image: url(https://pictures.s3.yandex.net/animation_topic/line_m.svg);
+  animation: move_bg 5s linear infinite alternate;
+}
+.demo__row_size_l {
+  background-image: url(https://pictures.s3.yandex.net/animation_topic/line_l.svg);
+  animation: move_bg 8s linear infinite alternate;
+}
+
 .dotted {
   /* background-color: #EB483F; */
   color: white;
   position: absolute;
-  right: -9px;
-  top: 240px;
+  left: 1100px;
+  top: 250px;
 }
 
 .dotted__wrapper {
@@ -11,7 +122,6 @@
   margin: auto;
   padding: 50px 0;
   min-height: 350px;
-  position: relative;
   overflow: hidden;
 }
 
@@ -35,6 +145,7 @@
   height: 310px;
   margin-left: -155px;
   margin-top: -155px;
+  animation: rotation 40s linear infinite;
 }
 
 .star_size_l {
@@ -42,6 +153,7 @@
   height: 420px;
   margin-left: -210px;
   margin-top: -210px;
+  animation: rotation 30s linear infinite;
 }
 
 .star_size_m {
@@ -49,6 +161,7 @@
   height: 420px;
   margin-left: -210px;
   margin-top: -210px;
+  animation: rotation 20s linear infinite;
 }
 
 .dots {
