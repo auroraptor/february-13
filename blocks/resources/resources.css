@@ -4,3 +4,22 @@
   justify-content: center;
   align-items: center;
 }
+
+.resources__logo_opacity {
+  opacity: 0.6;
+}
+
+.resources__logo_contain {
+  object-fit: contain;
+}
+
+.resources__logo_cover {
+  object-fit: cover;
+}
+
+.resources__logo_glavstroy {
+  width: 270px;
+  height: 38px;
+  object-fit: cover;
+  opacity: 0.7;
+}
