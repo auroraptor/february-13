@@ -1,8 +1,5 @@
 .cards {
-  /* width: 920px; */
   max-width: 1280px;
-
-  /* width: 100%; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -19,4 +16,32 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+}
+
+.cards__title {
+  margin: 0 auto 16px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__item {
+  width: 230px;
+  list-style-type: none;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 50%;
+}
+
+.cards__description {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
 }
