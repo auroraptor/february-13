@@ -39,6 +39,13 @@ ul {
   border-radius: 50%;
 }
 
+.cards__openmoji {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  object-fit: cover;
+}
+
 .cards__description {
   margin: 0 auto;
   text-align: center;
