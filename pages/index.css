@@ -10,13 +10,11 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/table/table.css);
-@import url(../blocks/feynman/feynman.css);
 @import url(../blocks/cooperation/cooperation.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/quality-policy/quality-policy.css);
-@import url(../blocks/khan/khan.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
@@ -25,9 +23,6 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/cooperation/__triangle/cooperation__triangle.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -37,25 +32,11 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-/* элементы блока video */
-@import url(../blocks/video/__iframe/video__iframe.css);
-@import url(../blocks/video/__iframes/video__iframes.css);
-/* подключаю элементы блока khan */
-@import url(../blocks/khan/__author/khan__author.css);
-@import url(../blocks/khan/__book-container/khan__book-container.css);
-@import url(../blocks/khan/__book-pic/khan__book-pic.css);
-@import url(../blocks/khan/__buy-link/khan__buy-link.css);
-@import url(../blocks/khan/__container/khan__container.css);
-@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
-@import url(../blocks/khan/__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__title/khan__title.css);
-/* элементы блока resources */
+
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/footer/__column/footer__column.css);
-/* выше подключила элементы */
-/* ниже модификаторы */
+
 @import url(../blocks/logo/_place/logo_place_lead.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
@@ -67,7 +48,7 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
-/* а теперь подключила модификаторы */
+
 
 @import url(../blocks/dotted/dotted.css)
 
