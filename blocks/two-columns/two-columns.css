@@ -4,3 +4,29 @@
   margin: 100px auto 0;
   justify-content: space-between;
 }
+
+.two-columns__brief {
+  margin-top: 0;
+  width: 175px;
+  color: #FCB040;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
