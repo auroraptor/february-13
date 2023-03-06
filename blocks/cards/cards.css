@@ -59,12 +59,11 @@ ul {
 .cards__link {
   text-decoration: none;
   color: #FCB040;
-  padding: 9px;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
   position: relative;
-  padding: 9px 18px;
+  padding: 12px 18px;
   line-height: 1;
   margin-top: 18px;
 }
