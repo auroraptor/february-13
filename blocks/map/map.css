@@ -1,0 +1,41 @@
+.map {
+  color: white;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: no-repeat center left url(../../images/map.svg), #f2f2f2;
+  background-size: 2900px;
+}
+
+.map__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  margin: 380px 48px 0 auto;
+  text-align: end;
+}
+
+.map__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 70px 48px 0 auto;;
+}
+
+.map__link {
+  color: #FCB040;;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  right: 48px;
+  top: 80%;
+}
+
+.map__link:hover {
+  opacity: .5;
+  transition: opacity .5s ease-in-out;
+}
