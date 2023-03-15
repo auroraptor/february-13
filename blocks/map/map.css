@@ -17,13 +17,6 @@
   text-align: end;
 }
 
-.map__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 70px 48px 0 auto;;
-}
-
 .map__link {
   color: #FCB040;;
   text-decoration: none;
