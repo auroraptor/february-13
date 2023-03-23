@@ -4,16 +4,19 @@
   align-items: center;
   justify-content: center;
   background-color: #f2f2f2;
-  padding: 60px;
-  margin: 0 auto;
+
+  width: 100%;
 }
 
 .quality-policy__two-columns {
   margin-top: 0;
 }
 
+.quality-policy__container {
+  padding: 60px;
+}
+
 .quality-policy__brief {
-  /* align-self: flex-start; */
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -26,7 +29,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 48px;
-  border: 1px solid #87ceeb;
 }
 
 .quality-policy__item {
@@ -35,13 +37,11 @@
   min-width: 280px;
   max-width: 456px;
   gap: 24px;
-  border: 1px dotted green;
 }
 
 .quality-policy__icon {
   width: 120px;
   height: 120px;
-  border: 1px dotted hotpink;
   background-color: #FCB040;
   border-radius: 50%;
 }

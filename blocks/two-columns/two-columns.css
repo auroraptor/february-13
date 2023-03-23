@@ -1,8 +1,8 @@
 .two-columns {
-  width: 80%;
   display: flex;
-  margin: 100px auto 0;
   justify-content: space-between;
+  padding: 100px 20px 0 20px;
+  max-width: 1440px;
 }
 
 .two-columns__brief {
