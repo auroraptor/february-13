@@ -13,6 +13,10 @@
   padding-left: 0;
 }
 
+.resources__logo {
+  opacity: 0.6;
+}
+
 
 .resources__logo_opacity {
   opacity: 0.6;
@@ -25,5 +29,4 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-  border: 1px dotted #FCB040;
 }
