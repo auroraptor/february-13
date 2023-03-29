@@ -25,18 +25,18 @@
   width: 730px;
   margin-left: 64px;
   align-self: center;
-  z-index: 30;
+  z-index: 3;
 }
 
 .lead__subtitle {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 388px;
+  width: 688px;
   position: absolute;
   left: 64px;
   bottom: 30px;
-  z-index: 20;
+  z-index: 2;
 }
 
 .lead__square-pic {
@@ -51,9 +51,10 @@
 
 .lead__main-illustration {
   position: absolute;
-  width: calc(711px * 0.8);
-  height: 640px;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 1;
+  height: 800px;
+  object-fit: cover;
+  width: 800px;
 }

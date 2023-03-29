@@ -40,6 +40,11 @@
   color: #fff;
   padding-top: 100px;
   padding-left: 100px;
+  z-index: 2;
+  position: absolute;
+  left: 550px;
+  top: 0;
+  padding-top: 0;
 }
 
 .keyframes__wrapper {
@@ -71,7 +76,7 @@
 .demo__item {
   box-sizing: border-box;
   /* border: 2px solid white; */
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 240px;
   height: 240px;
   margin-right: 10px;
