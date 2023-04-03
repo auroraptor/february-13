@@ -65,7 +65,7 @@ ul {
   position: relative;
   padding: 12px 18px;
   line-height: 1;
-  margin-top: 18px;
+  width: fit-content;
 }
 
 .cards__link::before,
@@ -106,4 +106,12 @@ ul {
 
 .cards__link:hover {
   cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .cards__link {
+    line-height: 17px;
+    font-size: 17px;
+    flex-shrink: 1;
+  }
 }
