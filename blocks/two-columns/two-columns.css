@@ -30,3 +30,7 @@
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
+
+.two-columns__link {
+  padding-top: 30px;
+}
