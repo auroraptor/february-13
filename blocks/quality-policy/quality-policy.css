@@ -23,7 +23,6 @@
 }
 
 .quality-policy__list {
-  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;

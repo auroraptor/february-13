@@ -18,7 +18,7 @@ ul {
 }
 
 .cards__title {
-  margin: 0 auto 16px;
+  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 24px;
@@ -26,6 +26,7 @@ ul {
 }
 
 .cards__item {
+  gap: 16px;
   width: 230px;
   list-style-type: none;
   display: flex;
@@ -33,18 +34,10 @@ ul {
   align-items: center;
 }
 
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
 .cards__openmoji {
   width: 160px;
   height: 160px;
-  margin: 60px 40px 43px;
+  padding: 60px 40px 43px;
   object-fit: cover;
 }
 
@@ -108,10 +101,30 @@ ul {
   cursor: pointer;
 }
 
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 980px) {
+
+}
+
 @media (max-width: 520px) {
+  .cards {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .cards__description {
+    line-height: 17px;
+    font-size: 17px;
+  }
+
   .cards__link {
     line-height: 17px;
     font-size: 17px;
     flex-shrink: 1;
+    margin-top: 32px;
   }
 }
