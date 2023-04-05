@@ -59,3 +59,15 @@
   font-weight: bold;
   margin: 0;
 }
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 980px) {
+}
+
+@media (max-width: 520px) {
+  .quality-policy__list {
+    gap: 16px;
+  }
+}

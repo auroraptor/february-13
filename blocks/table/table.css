@@ -10,9 +10,10 @@
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px;
+  /* margin: 0 auto 90px; */
   z-index: 1;
   color: white;
+  padding: 48px 32px 90px;
 }
 
 .table__heading {
@@ -75,5 +76,26 @@
   .table__heading {
     font-size: 18px;
     padding: 0 0 10px;
+  }
+
+  .table_theme_dark {
+    gap: 12px;
+    padding-bottom: 180px;
+  }
+
+  .table__cell_theme_dark {
+    margin: 0;
+    width: 100%;
+  }
+
+  .table__heading_theme_dark {
+    text-align: center;
+    margin: 0;
+  }
+
+  .table__text_theme_dark {
+    /* text-align: center; */
+    line-height: 17px;
+    font-size: 16px;
   }
 }

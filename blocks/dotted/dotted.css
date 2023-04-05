@@ -144,3 +144,19 @@
 .dots_size_l {
   animation: rotation  20s ease-in-out infinite;
 }
+
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 980px) {
+
+}
+
+@media (max-width: 520px) {
+  .dotted {
+    top: 85vh;
+    left: 0;
+  }
+}
