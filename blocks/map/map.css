@@ -1,7 +1,6 @@
 .map {
   color: white;
   max-height: 890px;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +33,7 @@
   font-weight: bold;
   width: 648px;
   margin: 0;
-  padding: 500px 48px 0 0;
+  padding: 500px 48px;
   align-self: end;
   text-align: end;
 }
