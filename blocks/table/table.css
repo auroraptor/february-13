@@ -13,6 +13,7 @@
 .table_theme_dark {
   /* margin: 0 auto 90px; */
   z-index: 1;
+  gap: 0;
   color: white;
   padding: 48px 32px 90px;
 }
