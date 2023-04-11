@@ -50,6 +50,20 @@
   font-weight: normal;
 }
 
+.footer__icon_telegram {
+  width: 32px;
+  height: 32px;
+  fill: white;
+  padding: 6px;
+}
+
+.footer__icon_whatsapp {
+  width: 32px;
+  height: 32px;
+  fill: white;
+  padding: 6px;
+}
+
 
 @media (max-width: 1440px) {
 }
