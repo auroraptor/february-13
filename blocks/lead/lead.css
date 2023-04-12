@@ -36,6 +36,7 @@
   align-self: center;
   z-index: 1;
   margin: 0;
+  color: #1f1f1f;
 }
 
 .lead__subtitle {
@@ -121,6 +122,22 @@
 @media (max-width: 980px) {
   .lead__container {
     padding: 0 40px;
+  }
+
+  .lead__title {
+    line-height: 80px;
+    font-size: 72px;
+  }
+
+  .lead__square-pic {
+    height: 400px;
+    width: 400px;
+  }
+
+  .keyframes {
+    padding-top: 60px;
+    padding-left: 50px;
+    left: 0;
   }
 }
 

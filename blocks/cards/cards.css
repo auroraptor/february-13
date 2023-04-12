@@ -108,6 +108,7 @@ ul {
 @media (max-width: 980px) {
   .cards {
     justify-content: flex-start;
+    gap: 40px;
   }
 }
 

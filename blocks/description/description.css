@@ -8,6 +8,7 @@
 
 .two-columns {
   display: flex;
+  gap: 0;
   justify-content: space-between;
   padding: 100px 20px 60px 20px;
   max-width: 1440px;
@@ -50,6 +51,9 @@
 }
 
 @media (max-width: 980px) {
+  .two-columns {
+    gap: 24px;
+  }
 }
 
 @media (max-width: 520px) {

@@ -59,7 +59,19 @@
 }
 
 @media (max-width: 980px) {
+  .map__title {
+    padding: 350px 24px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: end;
+    max-width: 50%;
+  }
 
+  .map__link {
+    top: 90%;
+    line-height: 36px;
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 520px) {
