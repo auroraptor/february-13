@@ -16,6 +16,7 @@
 
 .resources__logo {
   opacity: 0.6;
+  object-fit: contain;
 }
 
 

@@ -1,6 +1,6 @@
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -22,16 +22,33 @@
   flex-flow: column nowrap;
 }
 
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .footer__column_content_copyright {
   justify-content: space-between;
 }
 
 .footer__column_content_info {
   justify-content: start;
+  gap: 20px;
 }
 
 .footer__column_content_social {
   justify-content: start;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .footer__column-heading {
@@ -40,7 +57,7 @@
   font-weight: bold;
   text-align: start;
   margin: 0;
-  color: #FCB040;
+  color: #fcb040;
 }
 
 .footer__author {
@@ -63,7 +80,6 @@
   fill: white;
   padding: 6px;
 }
-
 
 @media (max-width: 1440px) {
 }
